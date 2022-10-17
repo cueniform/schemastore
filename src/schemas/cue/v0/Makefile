@@ -11,9 +11,12 @@ ALL:=
 include Makefile.ALL
 include Makefile.schemastore
 
-%.cue: CUE_PACKAGE=$(notdir $(@D))# the single directory component directly containing the CUE file, with no trailing slash
+pascal_case = $(shell echo '$(1)' | tr -c 'a-zA-Z0-9' ' ' | sed -E 's/\<./\U&/g' | tr -d ' ')
+
 %.cue: BASENAME=$(notdir $(@:.cue=))# the target filename with .cue suffix removed (NB this should be a version!)
-%.cue: CUE_PATH=$(h)$(subst .,_,$(BASENAME:v%=V%)):# the version string with capitalised "V" prefix, and dots->underscores
+%.cue: LEAF_DIR_PASCAL=$(call pascal_case,$(notdir $(@D)))
+%.cue: CUE_PATH=$(h)$(LEAF_DIR_PASCAL):
+%.cue: CUE_PACKAGE=$(subst .,_,$(BASENAME))
 %.cue:
 	cue import jsonschema: $< --force --outfile $@ --package $(CUE_PACKAGE) --path '$(CUE_PATH)'
 

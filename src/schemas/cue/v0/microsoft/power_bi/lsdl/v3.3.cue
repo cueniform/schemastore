@@ -1,4 +1,4 @@
-package lsdl
+package v3_3
 
 import (
 	"strings"
@@ -6,7 +6,7 @@ import (
 	"list"
 )
 
-#V3_3: {
+#Lsdl: {
 	// LSDL Schema
 	//
 	// Linguistic Schema Definition Language schema

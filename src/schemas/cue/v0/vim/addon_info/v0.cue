@@ -1,6 +1,6 @@
-package addon_info
+package v0
 
-#V0: {
+#AddonInfo: {
 	_schema
 	_schema: {
 		// JSON schema for vim plugin addon-info.json metadata files

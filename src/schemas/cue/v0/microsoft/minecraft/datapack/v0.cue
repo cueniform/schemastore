@@ -1,6 +1,6 @@
-package datapack
+package v0
 
-#V0: {
+#Datapack: {
 	// Minecraft Data Pack Metadata
 	//
 	// Configuration file defining the metadata of a data pack for

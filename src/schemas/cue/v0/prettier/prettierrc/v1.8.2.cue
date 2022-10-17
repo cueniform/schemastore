@@ -1,6 +1,6 @@
-package prettierrc
+package v1_8_2
 
-#V1_8_2: {
+#Prettierrc: {
 	// Schema for .prettierrc
 	@jsonschema(schema="http://json-schema.org/draft-04/schema#")
 	#optionsDefinition & #overridesDefinition

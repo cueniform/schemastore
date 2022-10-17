@@ -12,5 +12,5 @@ ALL += microsoft/power_bi/lsdl/v3.3.cue
 ALL += microsoft/power_bi/lsdl/v3.4.cue
 ALL += microsoft/typescript/tsconfig/v0.cue
 ALL += prettier/prettierrc/v1.8.2.cue
-ALL += unifiedjs/syntax-tree/unist/v0.cue
+ALL += unifiedjs/syntax_tree/unist/v0.cue
 ALL += vim/addon_info/v0.cue

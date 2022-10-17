@@ -1,6 +1,6 @@
-package unist
+package v0
 
-#V0: {
+#Unist: {
 	_schema
 	_schema: {
 		// JSON schema for unist syntax trees

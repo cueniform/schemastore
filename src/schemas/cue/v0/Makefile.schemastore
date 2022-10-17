@@ -12,5 +12,5 @@ microsoft/power_bi/lsdl/v3.3.cue:		lsdlschema-3.3.json
 microsoft/power_bi/lsdl/v3.4.cue:		lsdlschema-3.4.json
 microsoft/typescript/tsconfig/v0.cue:		tsconfig.json
 prettier/prettierrc/v1.8.2.cue:			prettierrc-1.8.2.json
-unifiedjs/syntax-tree/unist/v0.cue:		unist.json
+unifiedjs/syntax_tree/unist/v0.cue:		unist.json
 vim/addon_info/v0.cue:				vim-addon-info.json

@@ -1,8 +1,8 @@
-package tsconfig
+package v0
 
 import "list"
 
-#V0: {
+#Tsconfig: {
 	// JSON schema for the TypeScript compiler's configuration file
 	@jsonschema(schema="http://json-schema.org/draft-04/schema#")
 	#compilerOptionsDefinition & #compileOnSaveDefinition & #typeAcquisitionDefinition & #extendsDefinition & #watchOptionsDefinition & #buildOptionsDefinition & #tsNodeDefinition & ((#filesDefinition | #excludeDefinition | #includeDefinition | #referencesDefinition) & {

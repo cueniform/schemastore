@@ -1,11 +1,11 @@
-package template
+package v0
 
 import (
 	"strings"
 	"list"
 )
 
-#V0: {
+#Template: {
 	// GitHub starter workflow config file schema
 	@jsonschema(schema="http://json-schema.org/draft-07/schema")
 

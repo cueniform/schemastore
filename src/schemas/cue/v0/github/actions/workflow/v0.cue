@@ -1,8 +1,8 @@
-package workflow
+package v0
 
 import "strings"
 
-#V0: {
+#Workflow: {
 	@jsonschema(schema="http://json-schema.org/draft-07/schema")
 
 	// The name of your workflow. GitHub displays the names of your
