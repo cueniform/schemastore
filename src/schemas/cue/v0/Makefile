@@ -5,7 +5,7 @@ MAKEFLAGS += --warn-undefined-variables \
 	     --no-builtin-variables \
 	     --no-print-directory
 h:=\#
-schemastore:=../../json
+VPATH=../../json
 ALL:=
 
 include Makefile.ALL
