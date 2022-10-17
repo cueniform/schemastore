@@ -1,5 +1,6 @@
 ALL += github/actions/workflow/template/v0.cue
 ALL += github/actions/workflow/v0.cue
+ALL += microsoft/minecraft/datapack/v0.cue
 ALL += microsoft/power_bi/lsdl/v0.7.cue
 ALL += microsoft/power_bi/lsdl/v1.0.cue
 ALL += microsoft/power_bi/lsdl/v1.2.cue
@@ -9,4 +10,7 @@ ALL += microsoft/power_bi/lsdl/v3.1.cue
 ALL += microsoft/power_bi/lsdl/v3.2.cue
 ALL += microsoft/power_bi/lsdl/v3.3.cue
 ALL += microsoft/power_bi/lsdl/v3.4.cue
+ALL += microsoft/typescript/tsconfig/v0.cue
+ALL += prettier/prettierrc/v1.8.2.cue
+ALL += unifiedjs/syntax-tree/unist/v0.cue
 ALL += vim/addon_info/v0.cue
