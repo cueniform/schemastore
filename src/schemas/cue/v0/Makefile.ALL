@@ -1,6 +1,5 @@
-ALL += github/actions/workflow/v0.cue
 ALL += github/actions/workflow/template/v0.cue
-ALL += vim/addon_info/v0.cue
+ALL += github/actions/workflow/v0.cue
 ALL += microsoft/power_bi/lsdl/v0.7.cue
 ALL += microsoft/power_bi/lsdl/v1.0.cue
 ALL += microsoft/power_bi/lsdl/v1.2.cue
@@ -10,3 +9,4 @@ ALL += microsoft/power_bi/lsdl/v3.1.cue
 ALL += microsoft/power_bi/lsdl/v3.2.cue
 ALL += microsoft/power_bi/lsdl/v3.3.cue
 ALL += microsoft/power_bi/lsdl/v3.4.cue
+ALL += vim/addon_info/v0.cue

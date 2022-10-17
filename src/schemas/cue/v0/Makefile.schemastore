@@ -1,0 +1,12 @@
+github/actions/workflow/template/v0.cue:	$(schemastore)/github-workflow-template-properties.json
+github/actions/workflow/v0.cue:			$(schemastore)/github-workflow.json
+microsoft/power_bi/lsdl/v0.7.cue:		$(schemastore)/lsdlschema-0.7.json
+microsoft/power_bi/lsdl/v1.0.cue:		$(schemastore)/lsdlschema-1.0.json
+microsoft/power_bi/lsdl/v1.2.cue:		$(schemastore)/lsdlschema-1.2.json
+microsoft/power_bi/lsdl/v2.0.cue:		$(schemastore)/lsdlschema-2.0.json
+microsoft/power_bi/lsdl/v3.0.cue:		$(schemastore)/lsdlschema-3.0.json
+microsoft/power_bi/lsdl/v3.1.cue:		$(schemastore)/lsdlschema-3.1.json
+microsoft/power_bi/lsdl/v3.2.cue:		$(schemastore)/lsdlschema-3.2.json
+microsoft/power_bi/lsdl/v3.3.cue:		$(schemastore)/lsdlschema-3.3.json
+microsoft/power_bi/lsdl/v3.4.cue:		$(schemastore)/lsdlschema-3.4.json
+vim/addon_info/v0.cue:				$(schemastore)/vim-addon-info.json
